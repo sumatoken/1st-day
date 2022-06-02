@@ -5,7 +5,7 @@ const Todo = ({userId, title, completed, id}) => {
     <>
      <div className="card" >id: {id}
   <div className="card-body">
-    Title: <h5 className="card-title"> {title}</h5>
+    <small className="text-muted">Title: </small> <h5 className="card-title"> {title}</h5>
     <h6 className="card-subtitle mb-2 text-muted">userId: {userId}</h6>
     {
       completed? 
